@@ -1,0 +1,96 @@
+/*
+================================================================================
+
+					CSS From Simplicity Theme
+
+================================================================================
+*/
+/* slider */
+.slider_desrcip {float:left; padding:16px 20px 0 14px; width:364px; font-family:Georgia, "Times New Roman", Times, serif; font-size:15px; color:#808080; line-height:20px; font-style: italic;} 
+.button_slider {background-color:#CC3333; font-size:18px; color:#fff; font-family:Georgia, "Times New Roman", Times, serif;   padding:18px 60px 18px 22px;  height:44px; line-height:44px; display:inline-block; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-decoration:none; position:relative; z-index:15; overflow:hidden; margin-top:6px; font-style:italic; text-align: left; }
+.button_slider span {display:inline-block; color:#fff; height:44px; line-height:44px; background:url(images/slider_button_line.png) repeat-y 100% 0%; padding:0 26px 0 0; -webkit-transition: padding-left 250ms ease-out;   -moz-transition: padding-left 250ms ease-out; padding-left:1px}
+.button_slider strong {position:absolute; right:16px; top:18px; background:url(images/slider_button_arrow.png) no-repeat 0% 0%; height:44px; width:38px; overflow:hidden}
+.button_slider:hover {background:#231e1a; color:#231e1a !important  }
+.button_slider:hover span {background:none !important;   text-decoration:none !important; padding-left:32px;   }
+.no-cssanimations .button_slider:hover span {background:none; padding-left:0px  }
+.button_slider:hover strong {background:none; display:none} 
+ 
+/* Sudo Slider */
+	.row_carousel {background:#f3f3f3; padding:0 0 45px 0; width:100%; min-width:980px}
+	.carousel {width:100%; margin:0 auto;}
+.slider { height:441px; width:100%; position:relative; overflow:hidden}
+.slider2 { height:441px; width:100%; position:relative; overflow:hidden}
+.slide {width:100% !important; height:441px; margin:0 auto; padding:41px 0 0 0;  }
+.align_slider {position:relative; width:950px; margin:0 auto; overflow:hidden}
+.slide .fleft {float:left;}
+.slide .fright {float:right}
+.slider_image { display: inline-block; float: right; margin: 0 0 15px; padding: 7px; position: relative;}
+.slider_image { background: none repeat scroll 0 0 #EEEEEE;}
+.slider_image div { padding: 10px;}
+.slider_image div {background: none repeat scroll 0 0 #FFFFFF;}
+
+.nav_position {overflow:hidden; text-align:center; padding:0 0 0; position:absolute; left:50%; margin-left:-177px; width:354px;margin-top:-4px; background:url(images/slider_nav_line.gif) repeat-x 0% 50% !important; }
+#nav {width:52px; margin:0 auto; display:none}
+.nav_position #nav {background:#f3f3f3; padding:0 21px; display:inline-block; width:auto; min-width:52px;   }
+	#nav a {display:inline-block;  background:url(images/bullet_gray.png) center center no-repeat; width:7px; height:7px; line-height:7px; text-indent:-9000px; margin-right:3px; }
+	#nav a:hover, .activeSlide {background:url(images/bullet.jpg) center center no-repeat !important; }
+
+.slider_long {padding-top:0; padding-bottom:86px;}
+.slider_long .carousel, .slider_long .slider, .slider_long .slide  {width:100%; height:409px;}
+.slider2_image {width:100%; height:100%; text-align:center; position:absolute; left:0; top:0}
+.slider2_image div {width:100%; height:100%; text-align:center}
+.descr2_right {float:none; position:relative; z-index:15000; width:430px; margin:0 auto; padding:63px 0 0 510px; text-align:center}
+.descr2_left {float:none; position:relative; z-index:15000; width:430px; margin:0 auto; padding:63px 510px 0 0 ; text-align:center}
+.descr2_left  .slider_title, .descr2_right  .slider_title {width:100%}
+.button_slider2 {background:url(images/slider_line.png) no-repeat 0% 0%; width:350px; margin:0 auto}
+.button_slider2 a {font-size:16px; color:#fff; font-family:Georgia, "Times New Roman", Times, serif; height:50px; line-height:50px; width:124px; padding:0 0px 0 0;   display:inline-block; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; text-decoration:none; position:relative; z-index:15; overflow:hidden;   -webkit-transition: background 250ms ease-out;   -moz-transition: background 250ms ease-out;}
+.button_slider2 a span {display:inline-block; color:#fff; }
+.button_slider2:hover a {background:#231e1a}
+
+.slider_long .nav_position {margin-top:34px}
+
+.slider_title {font-size:56px; font-family: 'Open Sans', sans-serif; font-weight:300; padding:0 0 19px 0; font-style:normal; line-height:48px; letter-spacing:-3px; color:#3c2e25; width:340px; word-spacing:-1px}
+
+#carousel_next, #carousel_previous {
+	background-color: #CCC;
+	position:absolute;
+	top: 300px;
+	width: 50px;
+	height: 60px;
+	z-index: 5;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	opacity: 0.5;
+}
+#carousel_next {
+	border-radius: 10px 0 0 10px;
+	left: 500px;
+}
+#carousel_previous {
+	border-radius: 0 10px 10px 0;
+}
+#carousel_next:hover, #carousel_previous:hover {
+	background-color: #FFF;
+	opacity: 1;
+}
+#carousel_next a {
+	background: url("images/arrows.png") no-repeat scroll 0 100% transparent;
+	width: 30px;
+	height: 30px;
+	display:block;
+	margin-top: 20px;
+}
+#carousel_next a:hover {
+	background-position: 100% 0;
+}
+
+#carousel_previous a {
+	background: url("images/arrows.png") no-repeat scroll 0 100% transparent;
+	width: 30px;
+	height: 30px;
+	display:block;
+	margin-top: 20px;
+}
+#carousel_previous a:hover {
+	background-position: 0 0;
+}
