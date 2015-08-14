@@ -1,0 +1,239 @@
+/*
+==  CUSTOM STYLESHEET  ========================================================
+
+HOW TO USE THIS FILE:
+	Simply copy an existing style from the style.css file to this one and 
+	modify however you like. It will override the default style.
+
+WHY USE THIS FILE:
+	Adding your custom CSS here will make it much easier to upgrade to a 
+	newer version of this theme without losing any of your customizations.
+
+===============================================================================
+ADD YOUR CUSTOM CSS BELOW THIS LINE */
+
+.DT_Twitter span a:hover,
+.commentlist .comment-meta a:hover,
+.single .post-footer a:hover,
+.widget a:hover,
+.load-more-text .load-more-plus,
+.item .post-title a:hover,
+a.read-more span.plus,
+.item a.read-more,
+.item .meta-category a:hover,
+.details span.plus span,
+.featured-small .post-title span.plus span,
+a { color: #cc3333; }
+
+a:link { -webkit-tap-highlight-color: #cc3333; }
+::selection { background: #cc3333; }
+
+.groups,
+.archive-title-item,
+.overlay-video,
+.overlay-gallery,
+.overlay-image,
+.nav-title-item,
+.details .read-more { background-color: #cc3333; }
+
+#comments #submit,
+.tagcloud a:hover,
+#load-more a:hover { background: #cc3333; }
+
+#container, #header-inner,
+.menu-footer-menu-container,
+#credits {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content .header {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 20px 10px;
+    min-width: 300px;
+}
+
+#content .post-content select {
+	border: 1px solid #EEEEEE;
+	min-width: 180px;
+	margin-right: 10px;
+}
+.item {
+	margin: 0 10px 20px;
+}
+
+#content .header .post-content {
+	margin: 30px 0 10px;
+    padding: 0 20px;
+}
+
+#content .post-content strong {
+	padding-left: 10px;
+}
+
+#price-range-inr {
+	position:relative;
+	display:inline-block;
+}
+
+.page .post-header {
+	padding: 10px 20px;
+}
+
+.single-block {
+	display:inline-block;
+	margin-top: 10px;
+}
+
+.nav-title-item {
+	background-image: url("images/archive-arrow.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-title-item #page-title {
+	font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+}
+
+.item .meta-category {
+	padding: 0 15px 5px 0;
+}
+
+.featured-image a img, .featured-image-cover a img {
+	-moz-transition: all 400ms ease-in-out 0s;
+}
+
+.featured-image a:hover img, .featured-image-cover a:hover img {
+	transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-moz-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
+
+.post-content .item {
+	box-shadow: none;
+	overflow: visible;
+	text-shadow: none;
+	width: auto;
+}
+
+.details {
+	width: 360px;
+}
+.details a.read-more {
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF !important;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 0 0 -30px;
+    padding: 0 20px;
+    position: relative;
+}
+.details a.read-more span.plus span {
+    color: #3B3B3B;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.details a.read-more span.plus {
+    position: absolute;
+    right: 12px;
+    top: 0;
+}
+.checkbox-wrapper {
+	display: inline-block;
+	margin: 20px 10px 0;
+	font-weight: bold;
+}
+.checkbox-wrapper input[type="checkbox"] {
+	vertical-align:middle;
+}
+
+/* Facebook Component */
+#fb-root {
+	float: right;
+	overflow:hidden;
+	color: #FFF;
+	font-weight: bold;
+	padding-top: 5px;
+	height: 24px;
+	width: 160px;
+}
+#fb-root a:hover {
+	
+}
+
+#fb-root div {
+	display:none;
+}
+
+.single-block input[type="text"] {
+	height: 14px;
+	margin: 0px;
+	padding: 3px;
+	width: 200px;
+}
+.text-default-label {
+	color: #AAA;
+}
+
+.details .post-title a, .details .post-title {
+	font-size: 16px;
+}
+#content .header .featured-post-content {
+	margin: 20px 0 10px;
+}
+#content .header .featured-post-content strong {
+	padding: 0;
+}
+.featured-single-block {
+	margin: 10px 0;
+}
+.featured-image-block {
+	display: inline-block;
+	float: right;
+	margin: 0 0 15px;
+	padding: 4px;
+	position: relative;
+	background: none repeat scroll 0 0 #EEEEEE;
+}
+.featured-image-block .featured-image-cover {
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding: 10px;
+	box-shadow: 1px 1px 0 #D9D9D9;
+}
+.featured-image-cover a {
+	height: 300px;
+	overflow: hidden;
+	display:block;
+}
+/*
+================================================================================
+jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ 
+================================================================================
+*/
+div.rating-cancel,div.star-rating{float:left;width:17px;height:16px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden;}
+div.rating-cancel,div.rating-cancel a{background:url("images/delete.gif") no-repeat 0 -16px; }
+div.star-rating,div.star-rating a{background:url("images/star.gif") no-repeat 0 0px; }
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+#price-range-inr input {
+	display:none;
+}
+/* END jQuery.Rating Plugin CSS */
