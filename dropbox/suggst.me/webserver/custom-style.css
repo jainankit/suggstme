@@ -1,0 +1,104 @@
+/*
+==  CUSTOM STYLESHEET  ========================================================
+
+HOW TO USE THIS FILE:
+	Simply copy an existing style from the style.css file to this one and 
+	modify however you like. It will override the default style.
+
+WHY USE THIS FILE:
+	Adding your custom CSS here will make it much easier to upgrade to a 
+	newer version of this theme without losing any of your customizations.
+
+===============================================================================
+ADD YOUR CUSTOM CSS BELOW THIS LINE */
+
+.DT_Twitter span a:hover,
+.commentlist .comment-meta a:hover,
+.single .post-footer a:hover,
+.widget a:hover,
+.load-more-text .load-more-plus,
+.item .post-title a:hover,
+a.read-more span.plus,
+.item a.read-more,
+.item .meta-category a:hover,
+.featured-details span.plus span,
+.featured-small .post-title span.plus span,
+a { color: #cc3333; }
+
+a:link { -webkit-tap-highlight-color: #cc3333; }
+::selection { background: #cc3333; }
+
+.groups,
+.archive-title-item,
+.overlay-video,
+.overlay-gallery,
+.overlay-image,
+.featured-details .read-more { background-color: #cc3333; }
+
+#comments #submit,
+.tagcloud a:hover,
+#load-more a:hover { background: #cc3333; }
+
+.featured {
+  height: 490px;
+  width: 820px;
+}
+
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#slides,
+#slides .slides_container {
+	height: 590px;
+	width: 820px;
+	overflow: hidden;
+}
+
+.featured .featured-image {
+	width: 600px;
+	height: 490px;
+}
+
+.featured-details {
+  height: 490px;
+}
+
+#home-title span {
+//  margin: 0 50px 20px 30px;
+}
+#home-title {
+  margin: 0 auto;
+  max-width: 900px;
+  border-bottom: none;
+}
+#home-title-container {
+  border-bottom: 1px dotted #BBBBBB;
+  margin: 0 50px 20px 30px;
+}
+
+/* for 680px or less - Mobile Phones */
+@media screen and (max-width: 680px) {
+  .featured {
+		background: url(images/header-bg.jpg) repeat !important;
+		text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		width: 300px;
+    height: 620px;
+  }
+
+  #slides,
+	#slides .slides_container { width: 300px; }
+
+  #slides .featured-image {
+		height: 260px;
+		margin-bottom: 5px;
+		position: absolute;
+		top: 60px;
+	}
+}
